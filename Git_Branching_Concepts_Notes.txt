@@ -30,4 +30,15 @@ Points To Remember:
 		Managers
 		Team leads
 	:- At the end: All other teammates including the developer himself/herself shoul pull the latest changes into their local master branch
+	
+
+Two Technical Terms
+	1: Behind (Lagging)
+	2: Ahead (Leading)
+
+
+
+
+
+
 		
