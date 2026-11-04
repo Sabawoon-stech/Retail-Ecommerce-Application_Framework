@@ -78,7 +78,14 @@ Difference between Git and GitHub
 		:: Cannot work offline
 		
 		
-		
+Commands:
+1: cd -- change directory
+	cd "C:\Users\DMVTEK\eclipse-workspace\Oct2026PomSeries"
+2: git init -- Register/initialize the project with git
+3: git remote add origin <repo url> -- connection establishment
+4: git add .  --> git add <file path> --> stage area
+5: git commit -m "" --> Local Repo (Master branch)
+6: git push origin master --- to remote repository
 	
 	
 	
