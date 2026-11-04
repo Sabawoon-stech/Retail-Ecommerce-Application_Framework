@@ -37,6 +37,13 @@ Two Technical Terms
 	2: Ahead (Leading)
 
 
+Commands:
+	>> number of branches local: git branch
+	>> changing the branches: git checkout branchName
+	>> git switch branchname
+	>> pulling from remote branch: git pull origin master
+	>> local merge: git merge master
+	>> clear -- for clearing
 
 
 
