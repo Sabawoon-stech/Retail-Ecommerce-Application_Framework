@@ -36,7 +36,6 @@ Two Technical Terms
 	1: Behind (Lagging)
 	2: Ahead (Leading)
 
-
 Commands:
 	>> number of branches local: git branch
 	>> changing the branches: git checkout branchName
