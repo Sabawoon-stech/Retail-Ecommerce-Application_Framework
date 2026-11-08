@@ -61,3 +61,9 @@ local.properties
 ## OS X
 ##############################
 .DS_Store
+
+############
+# Removing .txt file
+Git_Branching_Concepts_Notes.txt
+Git_Concepts.txt
+
