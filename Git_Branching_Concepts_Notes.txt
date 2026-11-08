@@ -1,0 +1,50 @@
+
+Branch
+	:: A GitHub branch is used to work with different version of the a repository at the same time -- (certain time)
+	:: GH has by default -- Master/Main -- host the stable code
+	:: Other branches are the copy of the master branch
+	:: New Branches -- Y are they created? 
+		i:- Are created for bug fixes --- ExternalTaxBugFix
+		ii:- Are created for developing new automation code/features --> HomePageLabelAutomation
+	:: Once the changes in new branches are completed will go through some process
+		>> Create PR -- Pull Request
+		>> Review -- CR (Code Review)
+		>> Test
+		>> Finally getting merged into the master branch
+
+Points To Remember:
+	:- Do not directly work on the local master branch
+	:- Always cut a feature branch to work on the bug or new feature 
+	:- Do all your coding in the feature branch -- testing
+	:- adding -- commiting -- push
+	:- Push the code to you locally created branch
+		git push origin <fb> -- 
+		git push origin ExternalTaxBugFix
+	:- This will create a remote feature branch in the GitHub.com
+	:- PR
+	:- The reviewers will review the code -- will provide their comments and will approve
+	:- Merge the code to Master remote branch
+	who merges?
+		Tester themselves
+		Sr. tester
+		Managers
+		Team leads
+	:- At the end: All other teammates including the developer himself/herself shoul pull the latest changes into their local master branch
+	
+
+Two Technical Terms
+	1: Behind (Lagging)
+	2: Ahead (Leading)
+
+Commands:
+	>> number of branches local: git branch
+	>> changing the branches: git checkout branchName
+	>> git switch branchname
+	>> pulling from remote branch: git pull origin master
+	>> local merge: git merge master
+	>> clear -- for clearing
+
+
+
+
+		
