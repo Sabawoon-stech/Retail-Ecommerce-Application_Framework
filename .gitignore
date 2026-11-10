@@ -62,5 +62,8 @@ local.properties
 ##############################
 .DS_Store
 
-
+###########################
+## Ignoring Class Notes
+Git_Branching_Concepts_Notes.txt
+Git_Concepts.txt
 
