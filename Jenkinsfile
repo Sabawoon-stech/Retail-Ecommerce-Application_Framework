@@ -78,21 +78,21 @@ pipeline
         stage('Sanity Automation Test') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    git 'https://github.com/Yuonus/Aug2023UIAutomationFW.git'
+                    git 'https://github.com/Sabawoon-stech/Retail-Ecommerce-Application_Framework.git'
                     bat "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/testng_sanity.xml"
                     
                 }
             }
         }
         
-        stage('Publish sanity Extent Report'){
+        stage('Publish sanity Chaintest Report'){
             steps{
                      publishHTML([allowMissing: false,
                                   alwaysLinkToLastBuild: false, 
                                   keepAll: true, 
                                   reportDir: 'reports', 
                                   reportFiles: 'TestExecutionReport.html', 
-                                  reportName: 'HTML Sanity Extent Report', 
+                                  reportName: 'HTML Sanity Chaintest Report', 
                                   reportTitles: ''])
             }
         }
