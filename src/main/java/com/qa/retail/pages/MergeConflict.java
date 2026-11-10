@@ -6,6 +6,13 @@ public class MergeConflict {
 		
 		System.out.println("This is Sabawoon's code");
 		System.out.println("Sabawoon");
+		// Add more logic (You can automate more features
+		//
+		//
+		//
+		//
+		// *********************************************
+
 		
 	}
 	
