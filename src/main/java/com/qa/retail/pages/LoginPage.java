@@ -57,7 +57,7 @@ public class LoginPage {
 
 	@Step("User name is: *** and the user password is: ****")
 	public AccountsPage doLogin(String username, String pwd) {
-		// System.out.println("Credentials are: " + username + " : " + pwd); // Never expose your credentials
+		System.out.println("Credentials are: " + username + " : " + pwd); // Never expose your credentials
 		eleUtil.doSendKeysWithWait(userName, username, AppConstants.MEDIUM_DEFAULT_WAIT);
 		eleUtil.doSendKeys(password, pwd);
 		eleUtil.doClick(loginBtn);
