@@ -57,14 +57,14 @@ pipeline
         }
         
         
-        stage('Publish Extent Report'){
+        stage('Publish Chaintest Report'){
             steps{
                      publishHTML ([allowMissing: false,
                                   alwaysLinkToLastBuild: false, 
                                   keepAll: true, 
                                   reportDir: 'reports', 
                                   reportFiles: 'TestExecutionReport.html', 
-                                  reportName: 'HTML Regression Extent Report', 
+                                  reportName: 'HTML Regression Chaintest Report', 
                                   reportTitles: ''])
             }
         }
