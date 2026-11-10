@@ -61,9 +61,9 @@ pipeline
             steps{
                      publishHTML ([allowMissing: false,
                                   alwaysLinkToLastBuild: false, 
-                                  keepAll: true, 
-                                  reportDir: 'reports', 
-                                  reportFiles: 'TestExecutionReport.html', 
+                                  keepAll: true,
+                                  reportDir: 'target/chaintest',
+								  reportFiles: 'Index.html', 
                                   reportName: 'HTML Regression Chaintest Report', 
                                   reportTitles: ''])
             }
@@ -90,8 +90,8 @@ pipeline
                      publishHTML([allowMissing: false,
                                   alwaysLinkToLastBuild: false, 
                                   keepAll: true, 
-                                  reportDir: 'reports', 
-                                  reportFiles: 'TestExecutionReport.html', 
+                                  reportDir: 'target/chaintest',
+                                  reportFiles: 'Index.html', 
                                   reportName: 'HTML Sanity Chaintest Report', 
                                   reportTitles: ''])
             }
