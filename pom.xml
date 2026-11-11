@@ -94,9 +94,9 @@
 					<reuseForks>true</reuseForks>
 
 					<suiteXmlFiles>
-						<suiteXmlFile>
-							src/test/resources/testrunners/testng_regression.xml</suiteXmlFile>
-						<!-- <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>-->
+<!--						<suiteXmlFile>-->
+<!--							src/test/resources/testrunners/testng_regression.xml</suiteXmlFile>-->
+						 <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
 					<argLine>
 						-javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/1.9.26/aspectjweaver-1.9.26.jar
